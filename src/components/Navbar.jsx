@@ -1,27 +1,41 @@
-import React from "react";
+import React, { useState } from "react";
 import styles from "../style";
-import { navLinks } from "../constants";
+import { interact } from "../style";
+import { menu, close } from "../assets";
+import { Icons } from "../components";
 
 const Navbar = () => {
-  return (
-    <nav className={`${styles.flexCenter}`}>
-      <div className={`${styles.navBar} ${styles.flexCenter}`}>
-        <ul className="list-none hidden sm:block">
-          {navLinks.map((nav, index) => (
-            <li key={nav.id} className="py-5 px-2">
-              <img
-                src={nav.icon}
-                alt={nav.title}
-                className="h-[30x] w-[30px]"
-              />
-            </li>
-          ))}
-        </ul>
+  const [toggle, setToggle] = useState(false);
 
-        <ul className="flex sm:hidden text-[50px] text-white">*</ul>
+  return (
+    <nav className={`${styles.flexCenter} z-10`}>
+      <div className={`${styles.navBar} ${styles.flexCenter}`}>
+        <Icons />
       </div>
 
-      
+      <div
+        className={`${
+          toggle ? "opacity-100" : "opacity-80"
+        } md:hidden select-none flex bg-white rounded-full fixed left-3 top-5 drop-shadow-lg w-[40px] h-[40px] object-fit ${
+          styles.flexCenter
+        }`}>
+        <img
+          src={toggle ? close : menu}
+          alt="menu"
+          className="w-[20px] cursor-pointer"
+          onClick={() => setToggle((prev) => !prev)}
+        />
+
+        <div
+          className={`${
+            toggle ? "flex" : "hidden"
+          } bg-white fixed w-[45px] top-0 mt-[50px] rounded-xl ${
+            styles.flexCenter
+          }
+        `}>
+          <Icons />
+        </div>
+      </div>
     </nav>
   );
 };

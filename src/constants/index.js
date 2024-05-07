@@ -1,30 +1,35 @@
 //constant text like arrays and stuffs
-import {about, contact, education, home, skill} from "../assets"
-
-export const navLinks = [
+export const experience = [
     {
-        id: "home",
-        title: "Home",
-        icon: home,
+        id:1,
+        title: "data analyst - intern",
+        company: "aretex(2024", 
+        task1: "Manage and organize  emails from various stores.",
+        task2: "Use a System to enter and record transactions.",
+        task3: "Monitoring concerns to generate formal report.",
     },
     {
-        id: "about",
-        title: "About",
-        icon: about,
+        id:2,
+        title: "full stack  - thesis",
+        company: "School Project (2023- 2024)", 
+        task1: "Developed a cross-platform application using the Ionic framework.",
+        task2: "Used Firebase as the online database for accessing data.",
+        task3: "Designed the user interface for both mobile and web platforms.",
     },
     {
-        id: "experience",
-        title: "Experience",
-        icon: skill,
+        id:3,
+        title: "MULTIMEDIA",
+        company: "personal (2017- present)", 
+        task1: "Created Photobooth layouts and templates",
+        task2: "Edited Pictures using adobe photoshop",
+        task3: "Edited videos using premiere pro, capcut and filmora",
     },
     {
-        id: "education",
-        title: "Education",
-        icon: education,
-    },
-    {
-        id: "contact",
-        title: "Contact",
-        icon: contact
+        id:4,
+        title: "MULTIMEDIA",
+        company: "personal (2017- present)", 
+        task1: "Created Photobooth layouts and templates",
+        task2: "Edited Pictures using adobe photoshop",
+        task3: "Edited videos using premiere pro, capcut and filmora",
     },
 ]

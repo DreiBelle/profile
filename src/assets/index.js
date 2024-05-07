@@ -1,8 +1,6 @@
-import home from "./home.png";
-import about from "./about.png";
-import contact from "./contact.png";
-import education from "./education.png";
-import skill from "./skill.png"
-import profile from "./profile.png"
+import profile from "./profile.png";
+import menu from "./menu.png";
+import close from "./close.png";
+import design from "./design.png"
 
-export { home, about, contact, education, skill, profile};
+export { profile, menu, close, design };

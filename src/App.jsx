@@ -1,17 +1,28 @@
-import styles from './style.js'
-import {Navbar, Hero} from './components'
+import styles from "./style.js";
+import { Navbar, Hero, About, Skills } from "./components";
 
 const App = () => (
-    <div className='w-full overflow-hidden'>
-      <div className={`${styles.navContainer} ${styles.flexCenter} ${styles.gradientBg}`}>
-        <Navbar />
-        <Hero />
-      </div>
+  <div id="home" className="w-full">
+    <div className={`${styles.gradientBg} ${styles.flexCenterRsp}`}>
+      <Navbar />
+      <Hero />
+    </div>
 
-      <div className='bg-hunter h-screen'>
-        another one
+    <div className={`bg-primary`}>
+      <div id="about">
+        {/* <About /> */}
+      </div>
+      <div id="skills">
+        <Skills />
+      </div>
+      <div id="education" className="h-screen">
+        education
+      </div>
+      <div id="phone" className="h-screen">
+        phone
       </div>
     </div>
-)
+  </div>
+);
 
-export default App  
+export default App;
