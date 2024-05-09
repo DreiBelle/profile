@@ -65,7 +65,7 @@ const Skills = () => {
                 </div>
               ))}
             </div>
-            <div className={`${styles.flexCenter} sm:hidden flex border rounded-xl bg-fontWhite text-fontBlack py-[5px]`}>
+            <div className={`${styles.flexCenter} sm:hidden flex border rounded-xl bg-fontWhite text-fontBlack mx-[10px]`}>
               <button className="font-oswald text-[20px]">Check out my Skills</button>
             </div>
           </div>

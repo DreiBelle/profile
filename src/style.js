@@ -3,6 +3,7 @@ const styles = {
     flexStart: "flex justify-center items-start",
     flexCenterRsp: "flex justify-center pt-[8px] pl-[0px] items-start md:h-screen sm:items-center sm:pt-[0] sm:pl-[50px]",
     gradientBg: "bg-gradient-to-b from-smoke from-0% to-primary to-100%",
+    gradientBgCard: "bg-gradient-to-b from-fontGrey from-0% to-fontBlack to-100%",
     navBar: "opacity-75 hover:opacity-100 md:flex hidden fixed left-5 bg-white h-[100%] w-[40px] max-h-[450px] rounded-[10px] select-none duration-100",
     cardExp1: "text-fontBlack bg-fontWhite rounded w-full max-w-[500px] md:max-w-[600px] p-[5px] col-span-7",
     cardExp2: "text-fontWhite bg-fontBlack rounded w-full max-w-[500px] md:max-w-[600px] p-[5px] col-span-7",
@@ -12,7 +13,8 @@ const styles = {
     borderDesign4: "border-r-4 border-b-4 h-full",
     cardTitle: "font-bebas text-[25px] leading-[25px]",
     cardTask: "list-disc pl-[25px] font-teacher",
-    modalSkillsContainer: "bg-white rounded h-[600px] w-[300px] ml-[50px]"
+    modalSkillsContainer: "bg-fontWhite text-fontBlack rounded-xl h-[550px] w-[280px] ml-[50px]",
+    appImage: "min-h-[300px] h-[300px] md:h-[500px] md:my-[20px] rounded-[20px]"
 };
  
 export const interact = { 

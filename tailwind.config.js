@@ -7,6 +7,7 @@ module.exports = {
       colors: {
         primary: "#111D13",
         fontWhite: "#F5F5F5",
+        fontGrey: "#8F9490",
         fontBlack: "#242E25",
         gainsboro: "#D9D9D9",
         smoke: "#797F7A",
@@ -30,5 +31,7 @@ module.exports = {
       xl: "1700px",
     },
   },
-  plugins: [],
+  plugins: [
+    require('daisyui'),
+  ],
 };

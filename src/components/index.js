@@ -5,5 +5,6 @@ import Icons from "./Icons"
 import About from "./About"
 import Skills from "./Skills";
 import SkillsModal from "./SkillsModal"
+import Sample from "./Sample"
 
-export {Navbar, Hero, Icons, About, Skills, SkillsModal}
+export {Navbar, Hero, Icons, About, Skills, SkillsModal, Sample}
