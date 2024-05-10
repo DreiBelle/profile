@@ -9,12 +9,12 @@ const App = () => (
     </div>
 
     <div className={`bg-primary`}>
-      <div id="about">
-        <About />
-      </div>
       <div id="skills">
         <Skills />
         <Sample />
+      </div>
+      <div id="about">
+        <About />
       </div>
       <div id="education">
         <Education />

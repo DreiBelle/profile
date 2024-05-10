@@ -15,14 +15,14 @@ const styles = {
     cardTask: "list-disc pl-[25px] font-teacher",
     modalSkillsContainer: "bg-fontWhite text-fontBlack rounded-xl h-[550px] w-[280px] ml-[50px]",
     appImage: "min-h-[300px] h-[300px] md:h-[500px] md:my-[20px] rounded-[20px]",
-    educationFont: "text-center font-bebas text-[20px] leading-none md:text-[40px]",
+    educationFont: "text-center font-bebas text-[20px] leading-none md:text-[25px]",
     iconContacts: "h-[25px] m-[10px]"
 };
  
 export const interact = { 
     icons: "h-[30px] my-[30px] hover:fill-smoke hover:scale-[1.1] duration-300 cursor-pointer",
     buttons: "bg-primary rounded text-white text-[20px] py-[5px] px-[60px] lg:py-[7px] lg:px-[100px] hover:scale-[1.05] hover:bg-smoke duration-300", 
-    aboutCard: "md:hover:scale-[1.2] md:hover:border-4 md:hover:drop-shadow-2xl select-none duration-300"
+    aboutCard: "md:hover:scale-[1.1] md:hover:border-4 md:hover:drop-shadow-2xl select-none duration-300"
 }
 
 export default styles

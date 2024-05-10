@@ -5,13 +5,16 @@ import styles from "../style";
 
 const Education = () => {
   return (
-    <div className="border-black mt-[30px]">
+    <div className="border-black mt-[5px]">
      <div>
+        <div className={`${styles.flexCenter}`}>
+          <h1 className="font-bebas text-white text-[40px]">EDUCATION</h1>
+        </div>
       <h1 className="absolute text-white font-bebas text-[25px] mx-auto left-0 right-0 text-center md:text-[50px]">SAINT MARY'S UNIVERSITY</h1>
       <img
         src={smu}
         alt="smulogo"
-        className="object-cover object-center h-[250px] md:h-[400px] lg:h-[550px] w-full">
+        className="object-cover object-center h-[250px] md:h-[400px] lg:h-[400px] w-full">
       </img>
      </div>
 

@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import styles from "../style";
 import { experience } from "../constants";
 import { SkillsModal }  from "../components"
@@ -6,8 +6,8 @@ import { SkillsModal }  from "../components"
 const Skills = () => {
   return ( 
     <div>
-      <div className={`${styles.flexCenter}`}>
-        <h1 className="font-bebas text-white text-[50px]">EXPERIENCE</h1>
+      <div className={`${styles.flexCenter} pt-[40px]`}>
+        <h1 className="font-bebas text-white text-[40px]">EXPERIENCE</h1>
       </div>
       <div className={`md:${styles.flexCenter}`}>
         <div className={`${styles.flexCenter}`}>
@@ -64,9 +64,6 @@ const Skills = () => {
                   </ul>
                 </div>
               ))}
-            </div>
-            <div className={`${styles.flexCenter} sm:hidden flex border rounded-xl bg-fontWhite text-fontBlack mx-[10px]`}>
-              <button className="font-oswald text-[20px]">Check out my Skills</button>
             </div>
           </div>
         </div>

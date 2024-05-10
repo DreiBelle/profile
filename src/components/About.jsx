@@ -4,11 +4,11 @@ import { design } from "../assets";
 
 const About = () => {
   return (
-    <div className={`${styles.flexCenter} sm:pt-[20px]`}>
+    <div className={`${styles.flexCenter} sm:py-[80px]`}>
       <div
         className={`md:${styles.flexCenter} w-[70%] text-white text-left px-[15px] font-mont md:py-[100px]`}>
         <div
-          className={`${interact.aboutCard} border-l-4 pl-[20px] md:w-[300px] md:border-t-4 md:pr-[20px] md:p-[50px] md:mr-[50px]`}>
+          className={`${interact.aboutCard} border-l-4 pl-[20px] md:w-[300px] md:border-t-4 md:pr-[20px] md:p-[30px] md:mr-[50px]`}>
           <span className="font-oswald text-[40px]">About Me</span>
           <br />
           <span>
@@ -19,13 +19,13 @@ const About = () => {
           </span>
         </div>
         <div
-          className={`${interact.aboutCard} pt-[20px] border-l-4 border-b-4 pl-[20px] pb-[20px] md:w-[300px] md:mx-[50px] md:p-[50px]`}>
+          className={`${interact.aboutCard} pt-[20px] border-l-4 border-b-4 pl-[20px] pb-[20px] md:w-[300px] md:mx-[50px] md:p-[30px]`}>
           <span className="font-oswald text-[40px]">Objective</span> <br />
           <span>
             As a graduating fourth-year student, I am actively seeking job
             opportunities where I can enhance my skills, leverage my knowledge,
             and contribute to a company's success through dedication and
-            diligence.{" "}
+            diligence.
           </span>
         </div>
       </div>
