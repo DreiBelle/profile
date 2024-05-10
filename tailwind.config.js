@@ -31,6 +31,16 @@ module.exports = {
       xl: "1700px",
     },
   },
+  daisyui: {
+    themes: [
+      {
+        mytheme: {
+          "primary": "#242E25",
+          "secondary": "#F5F5F5"
+        },
+      },
+    ],
+  },
   plugins: [
     require('daisyui'),
   ],

@@ -14,7 +14,9 @@ const styles = {
     cardTitle: "font-bebas text-[25px] leading-[25px]",
     cardTask: "list-disc pl-[25px] font-teacher",
     modalSkillsContainer: "bg-fontWhite text-fontBlack rounded-xl h-[550px] w-[280px] ml-[50px]",
-    appImage: "min-h-[300px] h-[300px] md:h-[500px] md:my-[20px] rounded-[20px]"
+    appImage: "min-h-[300px] h-[300px] md:h-[500px] md:my-[20px] rounded-[20px]",
+    educationFont: "text-center font-bebas text-[20px] leading-none md:text-[40px]",
+    iconContacts: "h-[25px] m-[10px]"
 };
  
 export const interact = { 

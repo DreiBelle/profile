@@ -1,8 +1,8 @@
 import styles from "./style.js";
-import { Navbar, Hero, About, Skills, Sample } from "./components";
+import { Navbar, Hero, About, Skills, Sample, Education, Footer} from "./components";
 
 const App = () => (
-  <div id="home" className="w-full">
+  <div id="home" className="w-full select-none">
     <div className={`${styles.gradientBg} ${styles.flexCenterRsp}`}>
       <Navbar />
       <Hero />
@@ -16,11 +16,11 @@ const App = () => (
         <Skills />
         <Sample />
       </div>
-      <div id="education" className="h-screen">
-        education
+      <div id="education">
+        <Education />
       </div>
-      <div id="phone" className="h-screen">
-        phone
+      <div id="phone" className="pb-[30px]">
+        <Footer/>
       </div>
     </div>
   </div>

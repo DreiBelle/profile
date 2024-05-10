@@ -6,12 +6,12 @@ import { SkillsModal }  from "../components"
 const Skills = () => {
   return ( 
     <div>
-      <div className={`${styles.flexCenter} pt-[15px]`}>
+      <div className={`${styles.flexCenter}`}>
         <h1 className="font-bebas text-white text-[50px]">EXPERIENCE</h1>
       </div>
       <div className={`md:${styles.flexCenter}`}>
         <div className={`${styles.flexCenter}`}>
-          <div className={`md:pl-[75px] sm:block hidden`}>
+          <div className={`sm:block hidden`}>
             {experience.map((exp, index) => (
               <div key={exp.id} className={`${styles.flexCenter} grid grid-cols-8 gap-2 p-[10px]`}>
                 <div className={`${exp.id % 2 !== 0 ? `${styles.cardExp1}` : `${exp.id % 4 === 0 ? `${styles.borderDesign4}` : `${styles.borderDesign2}`}`}`}>

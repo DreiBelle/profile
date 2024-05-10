@@ -5,13 +5,14 @@ import { app1, app2 } from "../assets";
 const Sample = () => {
   return (
     <div className={`h-fit mt-[50px] md:${styles.flexCenter} bg-fontBlack md:pl-[50px]`}>
+      <div>
         <div>
             <p className={`${styles.flexCenter} md:hidden text-center text-fontWhite py-[30px] font-bebas leading-none text-[30px]`}>
                 TRABAWHO: CONNECT JOB <br />
                 SEEKERS AND EMPLOYERS
             </p>
         </div>
-        <div className={`${styles.flexCenter}md:w-1/2`}>
+        <div className={`${styles.flexCenter}`}>
             <img
             src={app2}
             alt="app2"
@@ -23,6 +24,7 @@ const Sample = () => {
             className={`${styles.appImage} px-[5px]`}
             ></img>
         </div>
+      </div>
       <div className={`${styles.flexCenter} text-white md:w-1/2`}>
         <div>
             <p className={`${styles.flexCenter} md:flex hidden text-center font-bebas leading-none text-[50px] mt-[15px]`}>
@@ -43,8 +45,8 @@ const Sample = () => {
                 </p>
             </div>
             <div className={`${styles.flexCenter} py-[20px]`}>
-               <a href="https://github.com/DreiBelle/TRABAWHO.git" target="_blank"><button class="btn min-h-[0px] h-[40px] w-[200px] font-bebas text-[30px]">CHECK IT OUT</button></a>
-            </div>
+               <a href="https://github.com/DreiBelle/TRABAWHO.git" target="_blank"><button className="btn btn-secondary min-h-[0px] h-[40px] w-[200px] font-bebas text-[30px]">CHECK IT OUT</button></a>
+            </div> 
          </div>
       </div>
     </div>

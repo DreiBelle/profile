@@ -15,7 +15,7 @@ const Hero = () => {
           </p>
 
           <p
-            className={`${styles.flexCenter} font-mont hidden sm:flex text-white text-[15px] lg:text-[20px] leading-none text-center`}>
+            className={`${styles.flexCenter} font-teacher hidden sm:flex text-white text-[15px] lg:text-[20px] leading-none text-center`}>
             Specialized in Web Development and Design <br />
             focusing on sleek, user-friendly websites. Let's <br />
             collaborate to bring your digital <br />
@@ -23,7 +23,7 @@ const Hero = () => {
           </p>
 
           <div className={`${styles.flexCenter} hidden sm:flex py-[20px]`}>
-            <button className={`${interact.buttons} font-oswald`}>ABOUT</button>
+            <a href="#about"><button className={`${interact.buttons} font-oswald`}>ABOUT</button></a>
           </div>
         </div>
 

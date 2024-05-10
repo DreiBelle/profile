@@ -26,11 +26,11 @@ const SkillsModal = () => {
                 {skills.map((skill, index) => (
                    <div key={skill.id} className={`${styles.flexCenter}`}>
                     <div className='px-[5px]'>
-                      {skill.icon}
+                      <img src={skill.icon} alt="icon" className={`h-[20px]`} />
                     </div>
                     <div className='leading-[15px] pt-[10px] pr-[20px] text-[18px] font-bebas'>
                         {skill.title} <br/>
-                        <progress className="progress w-56" value={skill.rating} max="100"></progress>
+                        <progress className="progress progress-primary bg-smoke w-56" value={skill.rating} max="100"></progress>
                     </div>
                    </div>
                 ))}
